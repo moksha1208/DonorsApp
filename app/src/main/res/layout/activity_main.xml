@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="+91"
+                android:gravity="center_horizontal|center_vertical"/>
+
+            <EditText
+                android:id="@+id/donor_phone_no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Enter Phone Number"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:hint="Enter Password"/>
+
+        <Button
+            android:id="@+id/verify"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="VERIFY"
+            android:onClick="verify"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="LOGIN"
+            android:onClick="login"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

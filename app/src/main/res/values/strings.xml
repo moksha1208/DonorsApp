@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DonorApp</string>
+    <string name="title_activity_current_location">Map</string>
+    <string-array name="ngo"></string-array>
+    <style name="AppTheme.PopMe">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>
